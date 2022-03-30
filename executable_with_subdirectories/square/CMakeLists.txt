@@ -1,0 +1,1 @@
+target_sources(app PRIVATE square.cpp square.h)
