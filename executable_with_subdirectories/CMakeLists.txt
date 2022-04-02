@@ -6,4 +6,6 @@ target_sources(app PRIVATE "app.cpp")
 target_include_directories(app PRIVATE "${PROJECT_SOURCE_DIR}")
 add_subdirectory("shape")
 add_subdirectory("square")
+install(TARGETS app)
+
 

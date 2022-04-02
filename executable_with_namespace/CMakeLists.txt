@@ -11,4 +11,6 @@ target_include_directories(app PRIVATE "${PROJECT_SOURCE_DIR}")
 add_subdirectory("shape")
 add_subdirectory("square")
 add_subdirectory("rectangle")
+install(TARGETS app)
+
 
