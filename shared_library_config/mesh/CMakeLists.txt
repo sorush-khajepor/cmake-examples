@@ -11,5 +11,5 @@ if(MSVC)
     add_custom_command(TARGET app POST_BUILD 
         COMMAND "${CMAKE_COMMAND}" -E copy 
         ${geo_dll}
-        ${CMAKE_CURRENT_BINARY_DIR}/Release )
+        ${CMAKE_CURRENT_BINARY_DIR}/$<CONFIG> )
 endif()
